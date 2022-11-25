@@ -1,0 +1,70 @@
+/* .TestimonialsContainer{
+    margin-top: 5rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.TestimonialsHeading > h1{
+    text-align: center;
+}
+.TestimonialSubHeading > p{
+    text-align: center;
+}
+.product-carousel {
+    margin-top: 5rem;
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    height: 350px;
+}
+
+.product-container {
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    right: 100px;
+    top: 350px;
+
+}
+.pre-btn, .next-btn{
+    border:2px solid #F53838;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    color: #F53838;
+    transition: 0.25s;
+}
+.pre-btn>span, .next-btn>span{
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-btn:hover, .pre-btn:hover{
+    background-color: #F53838;
+    color: #ffff;
+}
+
+@media screen and (max-width: 480px){
+    .btn{
+        top: 400px;
+        right: 50px;
+    }
+    .product-carousel {
+        height: 450px;
+    }
+
+}

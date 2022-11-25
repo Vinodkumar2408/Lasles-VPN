@@ -1,0 +1,42 @@
+.FeaturesContainer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.FeatureImage > img{
+    width: 400px;
+    
+}
+.FeatureText{
+    width: 400px;
+}
+.FeaturesPoints{
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #4F5665;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.feature > img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+@media screen and (max-width: 480px){
+    .FeaturesContainer{
+        flex-direction: column;
+    }
+    .FeatureText{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .FeaturesPoints{
+        margin-top: 3rem;
+        margin-left: 5rem;
+
+
+    }
+}

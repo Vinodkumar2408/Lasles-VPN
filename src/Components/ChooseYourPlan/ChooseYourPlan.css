@@ -1,0 +1,77 @@
+.choosePlanContainer {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pricing {
+    margin-top: 3rem;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceCard {
+    padding: 3rem 1rem;
+    border: 1.5px solid #DDDDDD;
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.25s;
+    
+}
+.priceCard:hover{
+    border: 1.5px solid #F53838;
+}
+
+.priceCard>img {
+    width: 150px;
+    
+}
+.planFeatures{
+    list-style: none;
+    width: 200px;
+    height: 500px;
+}
+
+.planFeatures>li {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #4F5665;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select > h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B132A;
+}
+.select > h3 > span{
+    font-weight: 200;
+    color: #4F5665;
+}
+
+@media screen and (max-width: 480px){
+    .Pricing{
+        flex-direction: column;
+        width: auto;
+    }
+    .priceCard {
+        margin-bottom: 3rem;
+    }
+    .choosePlanSubHeading{
+        text-align: center;
+    }
+}

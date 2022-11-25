@@ -1,0 +1,22 @@
+.LocationContainer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.LocationHeading > h1{
+    text-align: center;
+}
+.LocationSubHeading > p{
+    text-align: center;
+}
+.map > img{
+    margin-top: 5rem;
+    width: 60rem;
+}
+@media screen and (max-width: 480px){
+    .map > img{
+        width: 22rem;
+    }
+}

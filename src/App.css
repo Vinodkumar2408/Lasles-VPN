@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+/* *{
+    border: 1px solid black;
+} */
+.MainContainer{
+    margin: 7rem 10rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-weight: 500;
+    color: #0B132A;
+    font-size: 2rem;
+    line-height: 45px;
+}
+p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #4F5665;
+}
+.btn_secondary{
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+    color: #F53855;
+    border: 1px solid #F53855;
+    background-color: transparent;
+    padding: 10px 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+h4{
+    font-weight: 500;
+    color: #0B132A;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B132A;
+}
+p > span{
+    font-weight: 600;
+}
+.CTA > button {
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #F53855;
+    border: none;
+    padding: 15px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 60px -12px, rgba(245, 56, 56, 0.35) 0px 18px 36px -18px;
+}
+@media screen and (max-width: 480px){
+    .MainContainer{
+        margin: 1rem;
+    }
+}

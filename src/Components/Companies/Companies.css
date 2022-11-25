@@ -1,0 +1,18 @@
+.CompaniesContainer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.CompaniesContainer > img{
+    width: 10rem;
+}
+@media screen and (max-width: 480px){
+    .CompaniesContainer{
+        width: auto;
+    }
+    .CompaniesContainer > img{
+        width: 5rem;
+    }
+}
