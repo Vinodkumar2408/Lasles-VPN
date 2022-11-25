@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App]
 In the project directory, you can run:
 
 ### `npm start`!
-![ss](https://user-images.githubusercontent.com/64685787/202917965-9443318d-2220-49de-9f4e-183d12c3a89b.jpg)
+
 
 
 
